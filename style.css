@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(217, 54%, 11%);
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    
+}
+.card-container{
+    width: 375px;
+    margin: 20px auto;
+    background-color:  hsl(216, 50%, 16%);
+    padding: 30px;
+    border-radius: 20px;
+}
+.main-img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    
+}
+.card-text-container p{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+.card-container h2{
+ margin-bottom: 20px ;
+}
+.card-text-container p{
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.eth-conatiner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+    padding: 10px 0;
+
+}.eth-conatiner .eth-text-2{
+    color: hsl(215, 51%, 70%);
+}
+.eth-conatiner .eth-text-1{
+    color: hsl(178,100%,50%);
+    font-weight: 600;
+}
+.eth-conatiner p{
+    align-items: center;
+    font-size: 14px;
+}
+
+.line{
+    color:hsl(215, 32%, 27%) ;
+    margin: 20px 0;
+
+}
+.card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.card-footer img{
+    width: 32px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.card-footer .creation-text{
+    color:  hsl(215, 51%, 70%);
+}
